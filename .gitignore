@@ -1,1 +1,3 @@
 /.nb-gradle/
+*.tmp
+/build
