@@ -51,7 +51,7 @@ public class VarastoTest {
     @Test
     public void luoTurhanVarastonJaHylkaaYlimaaraisenAlkusaldon() {
         Varasto hyodyton = new Varasto(-20, 20);
-        assertEquals(0, hyodyton.getTilavuus(), vertailuTarkkuus);
+        assertEquals(10, hyodyton.getTilavuus(), vertailuTarkkuus);
         assertEquals(0, hyodyton.getSaldo(), vertailuTarkkuus);
         
     }
